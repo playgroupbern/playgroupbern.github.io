@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Playgroup Bern</title>
     <link rel="stylesheet" href="/assets/css/style.css?v=c5c4fd4ee25050988912c91e1057d097c8532aa9">
+    <style>
+      .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+      }
+      .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+      }
+    </style>
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
     <!-- Setup Google Analytics -->
@@ -31,7 +46,10 @@
         <p>Please be aware that during your visit you are solely responsilbe for your child and any use of our toys and infrastructure happens at your own risk.</p>
 
         <p>How to find us</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7644.014370363752!2d7.447606218355236!3d46.94269874129891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39d1b4356da3%3A0x4117d3e1bad71df8!2sJubil%C3%A4umspl.%202%2C%203005%20Bern!5e0!3m2!1sen!2sch!4v1642362229597!5m2!1sen!2sch" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7644.014370363752!2d7.447606218355236!3d46.94269874129891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39d1b4356da3%3A0x4117d3e1bad71df8!2sJubil%C3%A4umspl.%202%2C%203005%20Bern!5e0!3m2!1sen!2sch!4v1642362229597!5m2!1sen!2sch" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
 
     </div>
   </body>
